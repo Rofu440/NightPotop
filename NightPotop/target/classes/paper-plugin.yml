@@ -1,0 +1,16 @@
+name: NightPotop
+version: '1.0'
+main: org.rofu.nightpotop.NightPotop
+api-version: '1.20'
+author: Rofu
+depend: NightAPI
+description: Плагин для поднятия уровня воды в мире
+commands:
+  np:
+    description: Команда для управления потопом
+    usage: /np
+    permission: np.potop
+permissions:
+  np.potop:
+    description: Доступ к команде /np
+    default: op
